@@ -17,32 +17,32 @@ neparni();
 //INPUT: 1; OUTPUT: "Jesen";
 //INPUT: 3; OUTPUT: "Ljeto"; 
 
-  switch()
+  switch(godisnje_doba)
   {
    case 1:
-   {
+   
     console.log("jesen");
     break; 
-  };
+  
 
  
   case 2:
-  {
+  
     console.log("zima");
     break; 
-  };
+  
 
   case 3:
-  {
+  
     console.log("proljeće");
     break; 
-  };
+  
 
   case 4:
-  {
+  
     console.log("ljeto");
     break; 
-  };
+  
 };
 
 
@@ -147,4 +147,4 @@ const someEvents = [
 
 //INPUT: (someStates, 48.5)
 //OUTPUT: [{stateName: "Grcka", measuredTemperature: 48.0}]
- console.log("test");
+ 
