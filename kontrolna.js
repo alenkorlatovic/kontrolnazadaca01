@@ -70,12 +70,19 @@ const peopleYouShouldKnow = {
     Kent: "Beck",
     Martin: "Fowler",
     Erich: "Gamma"
-
-    function najdulji(){
-        
-    }
-
 }
+    function najdulji(peopleYouShouldKnow){
+        const temp =0;
+        for (let i of peopleYouShouldKnow ){
+            if( i.peopleYouShouldKnow >temp){
+                temp = i.peopleYouShouldKnow;
+            }
+        }
+        return temp;
+
+    };
+  console.log(Najdulji["a","sjdj","as"]);
+
 //INPUT: somePeople
 //OUTPUT: "Stroustrup"
 ​
@@ -83,6 +90,18 @@ const peopleYouShouldKnow = {
 //Napisi funkciju u obliku function expressiona koja vraca neproste brojeve
 //INPUT: [3, 4, 5, 8, 11]
 //OUTPUT: [4, 5, 8]
+    
+  const polje=[];
+function prosti(polje){
+
+    for (let i of polje){
+        if(polje[i]%2!= 0 && polje[i])
+    }
+
+    }
+
+
+
 ​
 //ZAMJENA ZA 5 (4 BODA)
 //Napisi funkciju u obliku arrow functiona koja pretvara mala slova danih inputa u velika slova
