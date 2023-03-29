@@ -17,18 +17,35 @@ neparni();
 //INPUT: 1; OUTPUT: "Jesen";
 //INPUT: 3; OUTPUT: "Ljeto"; 
 
-  switch{
-   case 1;
+  switch()
+  {
+   case 1:
    {
     console.log("jesen");
     break; 
   },
 
-  case 2;
+ 
+  case 2:
   {
     console.log("zima");
     break; 
-  },
+  };
+
+  case 3:
+  {
+    console.log("proljeće");
+    break; 
+  };
+
+  case 4:
+  {
+    console.log("ljeto");
+    break; 
+  };
+};
+
+
 ​
 //3 (4 BODA)
 //Napisi funkciju koja okrece uneseni string i broji charactere uzimajuci u obzir prazna mjesta (eng. whitespaces)
@@ -53,6 +70,11 @@ const peopleYouShouldKnow = {
     Kent: "Beck",
     Martin: "Fowler",
     Erich: "Gamma"
+
+    function najdulji(){
+        
+    }
+
 }
 //INPUT: somePeople
 //OUTPUT: "Stroustrup"
