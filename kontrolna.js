@@ -95,10 +95,14 @@ const peopleYouShouldKnow = {
 function prosti(polje){
 
     for (let i of polje){
-        if(polje[i]%2!= 0 && polje[i])
+        if(polje[i]%2!= 0  && polje[i] !=3)
+        return polje[i];
     }
+     
 
-    }
+    };
+
+  console.log  (function prosti(polje [1,2,3,4,11]));
 
 
 
@@ -132,5 +136,14 @@ const someEvents = [
         measuredTemperature: 48.0,
     },
 ];
+  function vraca (someEvents){
+    let nova[];
+    let temp;
+
+    nova= filter.someEvents(x=>x>temp);
+    return nova;
+  };
+  vraca ();
+
 //INPUT: (someStates, 48.5)
 //OUTPUT: [{stateName: "Grcka", measuredTemperature: 48.0}]
