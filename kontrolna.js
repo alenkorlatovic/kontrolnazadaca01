@@ -147,3 +147,4 @@ const someEvents = [
 
 //INPUT: (someStates, 48.5)
 //OUTPUT: [{stateName: "Grcka", measuredTemperature: 48.0}]
+ console.log("test");
