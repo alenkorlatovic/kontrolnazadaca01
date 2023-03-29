@@ -23,7 +23,7 @@ neparni();
    {
     console.log("jesen");
     break; 
-  },
+  };
 
  
   case 2:
