@@ -17,12 +17,32 @@ neparni();
 //INPUT: 1; OUTPUT: "Jesen";
 //INPUT: 3; OUTPUT: "Ljeto"; 
 
+  switch{
+   case 1;
+   {
+    console.log("jesen");
+    break; 
+  },
 
+  case 2;
+  {
+    console.log("zima");
+    break; 
+  },
 ​
 //3 (4 BODA)
 //Napisi funkciju koja okrece uneseni string i broji charactere uzimajuci u obzir prazna mjesta (eng. whitespaces)
 //INPUT: "Pisanje zadataka nije jednostavan posao"
 //OUTPUT: ("oasop navatsondej ejin akatadaz ejnasiP", 39)
+function obrnuti(polje){
+    let temp=[];
+
+    for(let i of polje){
+        let temp= polje.reverse();
+    }
+      return temp;
+}
+ obrnuti(polje["a","b"]);
 ​
 //4 (4 BODA)
 //Napisi funkciju koja odreduje najdulju vrijednostu u danom objektu
